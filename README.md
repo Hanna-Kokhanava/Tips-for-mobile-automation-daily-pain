@@ -1,13 +1,5 @@
 # Tips for mobile automation daily pain
 
-## Fix issue 'xcodebuild failed with code 65' -  Xcode 9.3 + node 10.1.0 + Appium server 1.8.0
-* Open the WebDriverAgent.xcodeproj
-* Select 'Targets' -> 'WebDriverAgentRunner'
-* Open 'Build Phases' -> 'Copy frameworks'
-* Click '+' -> add 'RoutingHTTPServer'
-* https://github.com/facebook/WebDriverAgent/issues/902
-
-
 ## Basic installation for Android / iOS platforms
 * Install Xcode (https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file). 
 * Install JDK (http://www.oracle.com/technetwork/java/javase/downloads/index.html). JDK placed in **/Library/Java/JavaVirtualMachines** folder.
@@ -41,6 +33,14 @@ Terminal commands for tools installation :
 
 ## Resolution for 'xcodebuild failed with code 65'
 Clear DeriverData : *rm -f /Users/hanna_kokhanava/Library/Developer/Xcode/DerivedData*
+
+## Fix issue 'xcodebuild failed with code 65' -  Xcode 9.3 + node 10.1.0 + Appium server 1.8.0
+* Open the WebDriverAgent.xcodeproj
+* Select 'Targets' -> 'WebDriverAgentRunner'
+* Open 'Build Phases' -> 'Copy frameworks'
+* Click '+' -> add 'RoutingHTTPServer' -> add 'YYCache.framework'
+* https://github.com/facebook/WebDriverAgent/issues/902
+
 
 ## XCode version switching command
 sudo xcode-select --switch /Applications/Xcode9.3.app
