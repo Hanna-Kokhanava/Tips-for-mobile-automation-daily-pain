@@ -21,6 +21,11 @@ Terminal commands for tools installation :
 * Run the *android* tool (included in the SDK/tools folder) and make sure an API Level 17 or greater SDK platform, Google Driver, SDK Tools and SDK platform-tools are installed.
 * Add the ANDROID_HOME to PATH variable.
 
+## Android uninstall server from device :
+* adb uninstall io.appium.uiautomator2.server
+* adb uninstall io.appium.uiautomator2.server.test
+
+
 ## Setup iOS
 * Switch to WedDriverAgent folder **cd /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/**
 * Run **./Scripts/bootstrap.sh** for fetching dependencies
