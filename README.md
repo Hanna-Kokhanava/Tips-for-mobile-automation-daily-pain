@@ -29,6 +29,7 @@ Terminal commands for tools installation :
 ## Setup iOS
 * Switch to WedDriverAgent folder **cd /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/**
 * Run **./Scripts/bootstrap.sh** for fetching dependencies
+* And run **./Scripts/bootstrap.sh** if some issues with "no such file or directory"
 * Run **open /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj**
 * Add Apple-ID account in Xcode -> Preferences -> Account
 * Download manual profiles
