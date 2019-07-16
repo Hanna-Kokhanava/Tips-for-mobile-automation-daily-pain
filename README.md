@@ -37,6 +37,9 @@ Terminal commands for tools installation :
 * Select your account in Sighing (Signing Certificate will be created)
 * Run WebDriverAgentRunner on real device
 
+## Certificates explanation
+https://medium.com/ios-os-x-development/ios-code-signing-provisioning-in-a-nutshell-d5b247760bef
+
 ## Resolution for 'xcodebuild failed with code 65'
 Clear DeriverData : *rm -f /Users/hanna_kokhanava/Library/Developer/Xcode/DerivedData*
 
