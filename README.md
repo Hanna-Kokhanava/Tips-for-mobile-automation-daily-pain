@@ -25,6 +25,10 @@ Terminal commands for tools installation :
 * adb uninstall io.appium.uiautomator2.server
 * adb uninstall io.appium.uiautomator2.server.test
 
+## adb commands
+* https://www.androidcentral.com/10-basic-terminal-commands-you-should-know
+* adb shell pm list packages - http://adbshell.com/commands/adb-shell-pm-list-packages
+
 
 ## Setup iOS
 * Switch to WedDriverAgent folder **cd /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/**
