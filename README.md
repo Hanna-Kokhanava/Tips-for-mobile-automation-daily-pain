@@ -29,6 +29,13 @@ Terminal commands for tools installation :
 * https://www.androidcentral.com/10-basic-terminal-commands-you-should-know
 * adb shell pm list packages - http://adbshell.com/commands/adb-shell-pm-list-packages
 
+## LaunchActivity name and package
+To get information about the name of the package and the first activity that has to be launched for the testing
+1. Browse through the **SDK folder -> Build-Tools -> Version folder**
+2. Open cmd and execute command **./aapt dumb badging "path_to_apk"**
+3. Find **package** (in the beginning of logs) and **launchable-activity** parameters
+
+
 
 ## Setup iOS
 * Switch to WedDriverAgent folder **cd /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/**
