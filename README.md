@@ -28,6 +28,7 @@ Terminal commands for tools installation :
 ## adb commands
 * https://www.androidcentral.com/10-basic-terminal-commands-you-should-know
 * adb shell pm list packages - http://adbshell.com/commands/adb-shell-pm-list-packages
+* Pull apk file from device : https://stackoverflow.com/questions/4032960/how-do-i-get-an-apk-file-from-an-android-device
 
 ## LaunchActivity name and package
 To get information about the name of the package and the first activity that has to be launched for the testing
